@@ -160,7 +160,7 @@ public class PDFUtils {
 
     public static void main(String[] args) throws Exception {
         String path = source;        //要遍历的路径
-        String name = null;
+        String name;
         File file = new File(path);        //获取其file对象
         File[] fs = file.listFiles();    //遍历path下的文件和目录，放在File数组中
         for (File f : fs) {                    //遍历File[]数组
